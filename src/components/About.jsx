@@ -11,7 +11,7 @@ const ServicesCard = ({ index, title, icon }) => {
     <Tilt className="xs:w-[250px] w-full">
       <motion.div
         variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
-        className=" w-full green-ping-gradient rounded-[20px] p-[1px] shadow-card "
+        className=" w-full green-ping-gradient rounded-[20px] p-[1px] shadow-card hover:border-purple-500 hover:border-2 "
       >
         <div
           options={{ max: 45, scale: 1.0, speed: 450 }}
@@ -42,7 +42,7 @@ const About = () => {
         I graduated high school as a web designer. I am currently studying at
         the Faculty of Informatics and Computer Science. I have experience in
         various web technologies such as HTML, CSS and JS (React). I'm also
-        learning C++, ReactNativ and Kotlin. I am photo and video editor. With
+        learning C and C++. I am photo and video editor. With
         many years of experience. I work in various Adobe packages, some of
         which are Adobe Lightroom, PremierePro and Photoshop. Feel free to ask
         about additional projects and the way of working or what you are

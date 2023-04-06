@@ -23,6 +23,10 @@ import {
   jobit,
   tripguide,
   threejs,
+  webdev,
+  school,
+  high,
+
 } from "../assets";
 
 export const navLinks = [
@@ -46,15 +50,15 @@ const services = [
     icon: web,
   },
   {
-    title: "Photo and Video Editor",
+    title: "C++",
     icon: mobile,
   },
   {
-    title: "GYM Trainer",
+    title: "Photo and Video Editor",
     icon: backend,
   },
   {
-    title: "C++",
+    title: "Fitness Enthusiast",
     icon: mobile,
   },
 ];
@@ -116,55 +120,53 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    company_name: "Web",
+    icon: webdev,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "March 2015-Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "As a web developer, I am responsible for creating and maintaining websites. My job involves working with various web technologies such as HTML, CSS, and JavaScript to build the frontend of the site, as well as utilizing server-side languages such as PHP and SQL to handle the backend functionality.",
+      "I enjoy the challenge of solving complex problems and coming up with innovative solutions to enhance the user experience. My work often involves collaborating with other developers, designers, and project managers to ensure that the website meets the client's requirements and is delivered on time.",
+      "Overall, being a web developer requires a combination of technical skills, creativity, and attention to detail. It's a rewarding career that allows me to continuously learn and grow while making a positive impact on the digital world.",
+      
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Graphic-Technician and Web-designer",
+    company_name: "High School",
+    icon: high,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2016 - Feb 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "I completed a four-year program in high school as a graphic technician and web designer, which provided me with a solid foundation in both graphic design and web development. During my studies, I gained a thorough understanding of design principles, software programs, and coding languages, which allowed me to create visually stunning websites that are both user-friendly and functional.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Overall, my education and experience as a graphic technician and web designer have given me the skills and knowledge needed to succeed in this field. I continue to stay up-to-date with the latest trends and technologies to ensure that I am providing the best possible service to my clients.",
+    ],
+  },
+  {
+    title: "ReactJS",
+    company_name: "ReactJS",
+    icon: reactjs,
+    iconBg: "#383E56",
+    date: "Jan 2020-Present",
+    points: [
+      "When I first started learning ReactJS, I was excited to dive into this popular JavaScript library and discover all that it had to offer. I knew that ReactJS was widely used in the web development industry and had many benefits, including increased performance and reusability of code.",
+      "To begin my learning journey, I first took the time to research and understand the basics of JavaScript, as ReactJS is built on top of this language. Once I had a good understanding of JavaScript fundamentals, I then turned to online resources such as tutorials, documentation, and video courses to learn ReactJS.",
+      "Overall, my experience learning ReactJS has been challenging, but rewarding. With time and practice, I have been able to master this powerful library and create dynamic, user-friendly web applications. I look forward to continuing to explore ReactJS and further advance my skills as a web developer.",
+      
+    ],
+  },
+  {
+    title: "Faculty",
+    company_name: "IPI Academy",
+    icon: school,
+    iconBg: "#E6DEDD",
+    date: "Jan 202 - Present",
+    points: [
+      "As a student at IPI Academy in Tuzla, I am currently pursuing a degree in Computer Science and Information Technology. I chose this program because I am passionate about technology and interested in pursuing a career in the tech industry.",
+      "During my studies, I have learned a wide range of skills and knowledge related to computer programming, software development, data analysis, and information security. I have also had the opportunity to work on various projects and assignments, which have allowed me to apply my learning in real-world situations.",
+      "Overall, my experience as a student at IPI Academy has been challenging and rewarding. I feel confident that the skills and knowledge I have gained through this program will help me to succeed in my future career in the tech industry.",
     ],
   },
 ];
