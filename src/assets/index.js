@@ -6,6 +6,11 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import webdev from "./webdev.png";
+import school from "./school.png";
+import high from "./high.png";
+
+
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -59,4 +64,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  webdev,
+  school,
+  high,
 };
