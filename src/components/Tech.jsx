@@ -9,10 +9,10 @@ import { technologies } from '../constants'
 
 const TechCard = ({ icon,name }) => {
   return (
-<Tilt className="xs:w-[250px] rounded-full ">
+<Tilt className="xs:w-[250px] rounded-full mb-3 ">
       <motion.div
-        variants={fadeIn("right", "spring", 0.75)}
-        className=" w-full green-ping-gradient rounded-full p-[1px] shadow-card hover:border-purple-500 hover:border-2  "
+        variants={fadeIn("left", "spring", 0.75)}
+        className=" w-full green-ping-gradient rounded-full shadow-card hover:border-purple-700 hover:border-2  "
       >
         <div
           options={{ max: 45, scale: 1.0, speed: 450 }}
