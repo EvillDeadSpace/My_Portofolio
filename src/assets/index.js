@@ -9,7 +9,7 @@ import close from "./close.svg";
 import webdev from "./webdev.png";
 import school from "./school.png";
 import high from "./high.png";
-
+import c from "./c.png";
 
 
 import css from "./tech/css.png";
@@ -67,4 +67,5 @@ export {
   webdev,
   school,
   high,
+  c,
 };
