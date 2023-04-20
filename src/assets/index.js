@@ -10,6 +10,13 @@ import webdev from "./webdev.png";
 import school from "./school.png";
 import high from "./high.png";
 import c from "./c.png";
+import patike from "./patike.png";
+import game from "./game.png";
+import vrijeme from "./vrijeme.png";
+import links from "./links.png";
+
+
+
 
 
 import css from "./tech/css.png";
@@ -68,4 +75,8 @@ export {
   school,
   high,
   c,
+  patike,
+  game,
+  vrijeme,
+  links,
 };
