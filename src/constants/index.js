@@ -27,6 +27,9 @@ import {
   school,
   high,
   c,
+  patike,
+  game,
+  vrijeme,
 
 } from "../assets";
 
@@ -185,16 +188,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Web for selling sneakers",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "My website is built with ReactJS and serves as an online store for sneakers. It is one of my earliest React projects that I have completed",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "firebasse",
         color: "green-text-gradient",
       },
       {
@@ -202,41 +205,21 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: patike,
+    source_code_link: "https://github.com/EvillDeadSpace/Online-shop-for-sneakers",
+    source_code_web: "https://site-tuba-shop.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "Guess Number Game",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A vanilla JavaScript project, a web application that allows users to guess a number between 1 and 20.",
     tags: [
       {
-        name: "react",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "html",
         color: "green-text-gradient",
       },
       {
@@ -244,8 +227,32 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: game,
+    source_code_link: "https://github.com/EvillDeadSpace/GuessMyNumber",
+    source_code_web: "https://guessnumber-amartubic.netlify.app",
+  },
+  {
+    name: "Weather API",
+    description:
+      "A website that uses an API to check and showcase weather conditions. I built this project myself with the assistance of an API.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: vrijeme,
+    source_code_link: "https://github.com/EvillDeadSpace/Weather-APP",
+    source_code_web: "https://weather-amartubic.netlify.app/",
+    
   },
 ];
 

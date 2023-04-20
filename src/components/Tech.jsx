@@ -32,6 +32,7 @@ const TechCard = ({ icon,name }) => {
 
 
 
+
 const Tech = () => {
   return (
     <div>
