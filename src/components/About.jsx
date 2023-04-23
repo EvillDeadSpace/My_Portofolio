@@ -31,7 +31,7 @@ const About = () => {
   return (
     <>
       <motion.div>
-        <p className={styles.sectionSubText}>Intruduction</p>
+        <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.heroHeadText}>Overview.</h2>
       </motion.div>
 
@@ -53,8 +53,11 @@ const About = () => {
           <ServicesCard key={service.tilt} index={index} {...service} />
         ))}
       </div>
+
     </>
   );
 };
+
+
 
 export default SectionWrapper(About, "about");

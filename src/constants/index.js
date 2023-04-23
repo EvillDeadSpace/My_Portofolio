@@ -162,26 +162,26 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Thanks to Amar's website optimization, we experienced a 50% increase in traffic. We are truly grateful for their efforts!",
+    name: "Kenan Havic",
+    designation: "COO",
+    company: "Principal",
+    image: "https://randomuser.me/api/portraits/men/3.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "I have yet to encounter a web developer who possesses the level of dedication to their clients' triumphs that Amar exhibits.",
+    name: "Mehmed Spahic",
+    designation: "CEO",
+    company: "OLX",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "Amar's website optimization has resulted in a 50% surge in our website traffic. We're extremely grateful and can't thank him enough!",
+    name: "Mariya Woo",
     designation: "CTO",
-    company: "456 Enterprises",
+    company: "Google",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
