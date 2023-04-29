@@ -1,4 +1,4 @@
 # My_Portofolio
 Working on my portofolio
 
-Link for WEB- https://tubic-amar-portofolio.netlify.app/
+Link for WEB- https://my-portofolio-evilldeadspace.vercel.app/#about
