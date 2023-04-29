@@ -7,8 +7,11 @@ import {styles} from '../styles'
 import {SectionWrapper} from  '../hoc'
 import { slideIn } from "../utils/motion";
 
+
+
 const Contact = () => {
-  
+  //godina
+  //php
   const formRef= useRef()
   const [form, setForm] = useState(
     {
@@ -19,8 +22,45 @@ const Contact = () => {
   )
   const [loading, setloading] = useState(false)
 
-  const handleChange = (e) => {}
-  const handleSubmit = (e) => {}
+  const handleChange = (e) => {
+    const {name, value} = e.target
+    setForm({...form, [name]: value})
+
+  }
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setloading(true);
+
+    emailjs.send(
+      'service_77rmlko', 
+      'template_dhylaua', 
+      {
+        form_name: form.name,
+        to_name: "Amar",
+        from_mail: form.email,
+        to_mail: "amartubic1@gmail.com",
+        message: form.message,
+      },
+      'Ij4CafcQBdGeupbrW',
+    )
+    .then( ()=> {
+      setloading(false);
+      setForm({
+        name: '',
+        email: '',
+        message: ''
+      })
+      alert('Message sent successfully')  
+    }, (err) => {
+      setloading(false);
+      console.log(err)
+      alert('Message failed to send')
+    }
+    
+    )
+   
+}
+
 
   return (
     <div className=' xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
